@@ -1,0 +1,99 @@
+/* Box-sizing border-box */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+h1{
+    font-size: 15px;
+}
+
+.siteTitle{
+    text-decoration: none;
+    color: #335576;
+    font-size: large;
+    
+}
+.nav__main{
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   font-size: 15px;
+    
+
+}
+.nav__title{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #DB7A4E;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 8px 35px;
+    border: none;
+    color: white;
+}
+p{
+    font-size: 12px;
+    margin: 40px 0;
+}
+footer{
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+    align-content: flex-end;
+    font-size: 12px;
+    
+}
+.hours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.orange.caps{
+    color: #DB7A4E;
+    text-transform: uppercase;
+}
+.icon{
+    height: 20px;
+    width: auto;
+   
+}
+
+    
+}
+.Hours{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 10px;
+    
+}
+.Socials{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 50px;
+    
+}
+.socials-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-end;
+}

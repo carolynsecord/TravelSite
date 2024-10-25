@@ -1,0 +1,73 @@
+
+
+.card {
+	width: 200px;
+	height: 300px;
+	margin: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+.card-landing{
+    padding-right: 20px;
+    color: white;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero{
+    height: 400px;
+    width: 100%;
+    background-color: #FEFAF5;
+    color: #335576;
+    display: flex;
+    padding: 40px 60px;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.heroHeading{
+    font-size: 25px;
+}
+.hero-text{
+    width: 400px;
+    height: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.hero-img{
+    width: 400px;
+
+}
+main{
+    padding: 40px 100px;
+    
+}
+.reccomendations{
+    color: #335576;
+}
+.card.hawaii{
+    background-image: url("assets/images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #335576;
+}
+.card.greece{
+    background-image: url("assets/images/greece.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #335576;
+}
+.card.iceland{
+    background-image: url("assets/images/iceland.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #335576;
+}
